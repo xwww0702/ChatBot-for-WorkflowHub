@@ -1,0 +1,50 @@
+# LangChain core
+langchain>=0.1.16
+langchain-community>=0.0.30
+langchain-core>=0.1.42
+langchain-openai
+langchain-google-genai
+langchainhub
+
+# RAG & Evaluation
+ragas>=0.1.4
+ragas[metrics]>=0.1.4  # include optional metrics dependencies
+
+# LLM providers
+llama-index>=0.10.38
+llama-index-core>=0.10.38
+llama-index-embeddings-huggingface
+llama-index-vector-stores-chroma
+llama-index-llms-openai
+llama-index-llms-gemini
+
+# Embeddings and vector DB
+chromadb>=0.4.24
+sentence-transformers
+huggingface-hub
+transformers
+scikit-learn
+faiss-cpu
+
+# Google Gemini API
+google-generativeai
+
+# Ollama (if using local LLM)
+ollama
+
+# Text preprocessing
+tiktoken
+nltk
+
+# RDF processing
+rdflib
+
+# Common utils
+pydantic
+uuid
+python-dotenv
+jsonlines
+
+# Jupyter support
+ipykernel
+notebook
